@@ -15,3 +15,17 @@ Welcome to my **Spring Data Learning Journey** repository! This repository is de
 - **Git & GitHub**: Version control and collaboration tools.
 
 ## 📂 Repository Structure
+📁 jdbc/ 📄 basic-jdbc-example.java <br>
+📁 jpa/ 📄 jpa-entity-demo.java <br>
+📁 hibernate/ 📄 hibernate-crud-example.java <br>
+📁 spring-data/ 📄 spring-data-repository.java <br> 
+📄 README.md
+
+
+## 🌟 Goals
+1. Understand and implement database connectivity with JDBC.
+2. Dive deep into JPA for object-relational mapping.
+3. Learn Hibernate features for advanced database management.
+4. Explore and build projects using Spring Data repositories.
+
+---

@@ -14,12 +14,14 @@ Welcome to my **Spring Data Learning Journey** repository! This repository is de
 - **Spring Framework**: A versatile framework providing dependency injection and data management.
 - **Git & GitHub**: Version control and collaboration tools.
 
+<!--
 ## 📂 Repository Structure
 📁 jdbc/ 📄 basic-jdbc-example.java <br>
 📁 jpa/ 📄 jpa-entity-demo.java <br>
 📁 hibernate/ 📄 hibernate-crud-example.java <br>
 📁 spring-data/ 📄 spring-data-repository.java <br> 
 📄 README.md
+-->
 
 
 ## 🌟 Goals

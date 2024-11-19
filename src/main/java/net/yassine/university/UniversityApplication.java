@@ -31,6 +31,15 @@ public class UniversityApplication implements CommandLineRunner {
             System.out.println(p.toString());
         });
 
+        //chercher un element by id
+
+        Product product = productRepository.findById(Long.valueOf(1)).get();
+        System.out.println("********************");
+        System.out.println(product.getId());
+        System.out.println(product.getName());
+        System.out.println(product.getPrice());
+        System.out.println(product.getQuantity());
+
 
     }
 }

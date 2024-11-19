@@ -17,8 +17,10 @@ public class UniversityApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        //adding object to database using spring data
         productRepository.save(new Product(null, "Computer", 4300, 3));
         productRepository.save(new Product(null, "Printer", 1200, 4));
         productRepository.save(new Product(null, "Smart Phone", 1300, 7));
+
     }
 }

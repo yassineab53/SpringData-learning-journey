@@ -7,6 +7,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import net.yassine.university.entities.Product;
 
+import java.util.List;
+
 @SpringBootApplication
 public class UniversityApplication implements CommandLineRunner {
     @Autowired // pour l'injection des depandances
@@ -21,6 +23,14 @@ public class UniversityApplication implements CommandLineRunner {
         productRepository.save(new Product(null, "Computer", 4300, 3));
         productRepository.save(new Product(null, "Printer", 1200, 4));
         productRepository.save(new Product(null, "Smart Phone", 1300, 7));
+
+        List<Product> products = productRepository.findAll();
+
+        // parcourir ma liste using forEach
+        products.forEach(p->{
+            System.out.println(p.toString());
+        });
+
 
     }
 }
